@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+
+*{
+	font-family: "Quicksand";
+	
+}
+
+body{
+	box-sizing: border-box;
+	background: url(../img/bsbg.jpg) no-repeat;
+	
+}
+
+/* Navbar */
+
+nav.nav-custom{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.nav-left{
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.nav-links-custom{
+	width: 22%;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+
+}
+
+.nav-logo{
+	padding: 40px 0;
+}
+
+a.link-primary{
+	text-decoration: none;
+	color: #ffff;
+}
+
+/* Navbar End */
+
+/* Content */
+
+section.content-section{
+margin: 0;
+position: absolute;
+width: 100%;
+height: 750px;
+left: 0px;
+top: 700px;
+background: #544F4F;
+mix-blend-mode: normal;
+box-sizing: border-box;
+
+}
+
+.col-content{
+width: 100%;
+color: #ffff;
+justify-items: space-between;
+align-items: center;
+padding-top: 250px;
+padding-left: 80px;
+}
+
+.h1-custom{
+font-weight: bolder;
+}
+
+.p-custom{
+width: 550px;
+position: absolute;
+}
+
+.col-product{
+position: relative;
+left: 800px ;
+bottom: 150px;
+}
+
+.text-center{
+position: fixed;
+padding: 0 ;
+align-content: center;
+bottom: 0;
+width: 100%;
+/* Height of the footer*/
+height: 65px;
+}
+
+.mb-4{
+padding-top: 20px;
+}
